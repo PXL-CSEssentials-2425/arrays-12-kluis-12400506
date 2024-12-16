@@ -1,0 +1,22 @@
+﻿<Window x:Class="Kluis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kluis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="eenButton" Content="1" HorizontalAlignment="Left" Margin="325,272,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="tweeButton" Content="2" HorizontalAlignment="Left" Margin="400,272,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="drieButton" Content="3" HorizontalAlignment="Left" Margin="475,272,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="vierButton" Content="4" HorizontalAlignment="Left" Margin="325,182,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="vijfButton" Content="5" HorizontalAlignment="Left" Margin="400,182,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="zesButton" Content="6" HorizontalAlignment="Left" Margin="474,182,0,0" VerticalAlignment="Top" Height="60" Width="46" Click="nulButton_Click"/>
+        <Button x:Name="zevenButton" Content="7" HorizontalAlignment="Left" Margin="325,92,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="achtButton" Content="8" HorizontalAlignment="Left" Margin="400,92,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="negenButton" Content="9" HorizontalAlignment="Left" Margin="475,92,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <Button x:Name="nulButton" Content="0" HorizontalAlignment="Left" Margin="325,352,0,0" VerticalAlignment="Top" Height="60" Width="45" Click="nulButton_Click"/>
+        <TextBox x:Name="invoerTextBox" TextWrapping="Wrap" Margin="312,19,267,358"/>
+    </Grid>
+</Window>
